@@ -57,6 +57,7 @@ class _InputPageState extends State<InputPage> {
   }
 }
 
+// this was created by using the flutter opener on the right hand window
 class ReusableCard extends StatelessWidget {
   ReusableCard({@required this.colour});
 
