@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+// this widget was extracted into a class to increase the app usablility
 class InputPage extends StatefulWidget {
   @override
   _InputPageState createState() => _InputPageState();
