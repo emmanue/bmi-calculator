@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+// SEparation of concern to improve readability of code
+
 const labelTextStyle = TextStyle(
   fontSize: 18.0,
   color: Color(0xFF8D8E98),
