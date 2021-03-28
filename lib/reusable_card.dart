@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// Well organised widget to facilitate readability
 class ReusableCard extends StatelessWidget {
   ReusableCard({@required this.colour, this.cardChild, this.onPress});
 
