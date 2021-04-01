@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'constants.dart';
-
-// Separation of concern to improve readability of code
+import 'package:bmi_calculator/constants.dart';
 
 class IconContent extends StatelessWidget {
   IconContent({this.icon, this.label});
@@ -13,7 +11,7 @@ class IconContent extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
-      children: [
+      children: <Widget>[
         Icon(
           icon,
           size: 80.0,
@@ -24,7 +22,7 @@ class IconContent extends StatelessWidget {
         Text(
           label,
           style: kLabelTextStyle,
-        ),
+        )
       ],
     );
   }

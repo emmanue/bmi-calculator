@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-// Well organised widget to facilitate readability
 class ReusableCard extends StatelessWidget {
   ReusableCard({@required this.colour, this.cardChild, this.onPress});
 
@@ -16,9 +15,9 @@ class ReusableCard extends StatelessWidget {
         child: cardChild,
         margin: EdgeInsets.all(15.0),
         decoration: BoxDecoration(
-            color: colour, borderRadius: BorderRadius.circular(10.0)),
-        height: 200.0,
-        width: 170.0,
+          color: colour,
+          borderRadius: BorderRadius.circular(10.0),
+        ),
       ),
     );
   }
