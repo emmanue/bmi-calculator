@@ -1,5 +1,7 @@
 import 'dart:math';
 
+
+// Well designed architecture following best practices
 class CalculatorBrain {
   CalculatorBrain({this.height, this.weight});
 
