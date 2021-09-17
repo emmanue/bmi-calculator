@@ -3,6 +3,7 @@ import '../constants.dart';
 import '../components/reusable_card.dart';
 import '../components/bottom_button.dart';
 
+//Separation of concern
 class ResultsPage extends StatelessWidget {
   ResultsPage(
       {@required this.interpretation,
