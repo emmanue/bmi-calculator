@@ -4,6 +4,7 @@ import '../components/reusable_card.dart';
 import '../components/bottom_button.dart';
 
 //Separation of concern
+// Following the best practices for architecture and design
 class ResultsPage extends StatelessWidget {
   ResultsPage(
       {@required this.interpretation,
